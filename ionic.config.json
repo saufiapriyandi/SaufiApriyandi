@@ -1,0 +1,7 @@
+{
+  "name": "saufi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

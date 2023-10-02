@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+  <div ng-if="userRole==='superadmin'"> 
+  <ion-img
+  src="https://asset-2.tstatic.net/kaltara/foto/bank/images/Pantun-patah-hati-ilustrasi-meme.jpg"></ion-img>
+  </div >
+  <div ng-if="userRole==='admin'"> ><ion-img
+    src="https://docs-demo.ionic.io/assets/madison.jpg"></ion-img></div>
+
+
+  <p>The Wisconsin State Capitol building in Madison, WI at night</p>
+  anda adalah {{userRole}}
+  
+   </div>
+</ion-content>
